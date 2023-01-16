@@ -1,0 +1,43 @@
+.container>h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.779);
+}
+
+.container>p {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.677);
+  font-size: 17px;
+}
+
+.main-btn {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.818);
+  font-size: 16px;
+
+}
+
+.topnav>ul>button>a>li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.499);
+
+}
+
+.card-text>h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.818);
+  font-size: 32px;
+}
+
+.card-text>p {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.677);
+  font-size: 17px;
+}
+
+.card-text>div>button {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.818);
+  font-size: 16px;
+}
