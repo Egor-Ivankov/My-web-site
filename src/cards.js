@@ -1,8 +1,10 @@
+
 const divCardOne = document.querySelector('.card-one');
 const divCardTwo = document.querySelector('.card-two');
 const divCardThree = document.querySelector('.card-three');
-const btns = document.querySelectorAll('.btn-card');
-//                  Cards Classes
+
+function cards () {
+
 class Cards {
     constructor(src, alt, header, paragraph) {
         this.src = src;
@@ -44,5 +46,5 @@ const cardThree = new Cards(
     'The Olympic Park',
     'Is a public area and one of the main attractions of Greater Sochi, the main complex facility of the 2014 Winter Olympics');
 cardThree.showCard(divCardThree);
-
-//                  Btns
+}
+export default cards;
