@@ -7,6 +7,10 @@ body {
   background-color: azure;
 }
 
+.non_active {
+  display: none;
+}
+
 /* Img styles */
 .my-photo {
   width: 15%;
@@ -25,8 +29,7 @@ body {
 
 .container {
   text-align: center;
-  margin-top: 7em;
-
+  padding-top: 7em;
 }
 
 .container>h1 {
@@ -79,6 +82,22 @@ body {
 
 .topnav>ul>button>a>li:hover {
   text-shadow: 0.1px 0.1px;
+}
+
+.sun a {
+  width: 30px;
+  color: rgba(8, 16, 20, 0.562);
+  position: absolute;
+  right: 2%;
+  top: 2.5%;
+}
+
+.moon a {
+  width: 30px;
+  color: rgba(8, 16, 20, 0.562);
+  position: absolute;
+  right: 2%;
+  top: 2.5%;
 }
 
 /* Cards places */
